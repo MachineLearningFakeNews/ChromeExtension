@@ -5,6 +5,8 @@
  * @param {function(string)} callback - called when the URL of the current tab
  *   is found.
  */
+(function ($) {
+
 function getCurrentTabUrl(callback) {
   var queryInfo = {
     active: true,
@@ -33,6 +35,10 @@ function renderStatus(statusText) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+  $.getJSON('sources.json', function (sources) {
+    console.log(sources);
+    // do something with the data
+  });
   getCurrentTabUrl(function(url) {
     renderStatus('Performing News Analysis for:\n' + url);
   });
@@ -61,3 +67,5 @@ document.addEventListener('DOMContentLoaded', function() {
   gauge.set(50); // set actual value
 
 });
+
+}(jQuery));
