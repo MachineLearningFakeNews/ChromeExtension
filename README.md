@@ -4,7 +4,7 @@
 
 This extension displays a credibility percentage of a new source currently opened in the Chrome tab.
 
-Our extension utilizes [OpenSources](https://opensources.co) data set for detecting Fake News [domains](http://github.com/BigMcLargeHuge/opensources/blob/master/sources/sources.csv). 
+Our extension utilizes [OpenSources](http://www.opensources.co/) data set for detecting Fake News [domains](http://github.com/BigMcLargeHuge/opensources/blob/master/sources/sources.csv). 
 
 ## Testing
 
