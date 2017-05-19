@@ -1,14 +1,16 @@
 {
   "manifest_version": 2,
 
-  "name": "You Are Fake News Extension",
-  "description": "This extension shows the results of testing the news on the current webpage against our Fake News ML Project",
+  "name": "Fake News Gauge",
+  "description": "This extension displays a credibility percentage of a new source currently opened in the tab.",
   "version": "1.0",
-
+  "icons": {
+    "48": "icon48.png"
+  },
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html",
-    "default_title": "Click Here!"
+    "default_title": "Check Source"
   },
   "permissions": [
     "activeTab",
