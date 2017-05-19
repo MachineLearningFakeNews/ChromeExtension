@@ -1,6 +1,6 @@
 # Fake News Chrome Extension
 
-[![logo](https://cloud.githubusercontent.com/assets/560721/26270165/1c1753f0-3cae-11e7-8cb3-8cc4e95f1484.png)]
+![logo](https://cloud.githubusercontent.com/assets/560721/26270165/1c1753f0-3cae-11e7-8cb3-8cc4e95f1484.png)
 
 This extension displays a credibility percentage of a new source currently opened in the Chrome tab.
 
