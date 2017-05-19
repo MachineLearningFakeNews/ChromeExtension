@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "You Are Fake News Extension",
+  "description": "This extension shows the results of testing the news on the current webpage against our Fake News ML Project",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Click Here!"
+  },
+  "permissions": [
+    "activeTab",
+    "notifications",
+    "https://ajax.googleapis.com/"
+  ]
+}

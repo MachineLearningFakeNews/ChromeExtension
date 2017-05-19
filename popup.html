@@ -1,0 +1,38 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>You Are Fake News! Popup</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+        color: white;
+      }
+
+      #status {
+        /* avoid an excessively wide status text */
+        white-space: pre;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 400px;
+        width: 700px;
+        height: 500px;
+        text-align: center;
+        background: black;
+      }
+    </style>
+    <canvas id='foo'></canvas>
+    <script src="gauge.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div id="status"></div>
+    <button id='more-info', style="float: right;">More Information</button>
+    <img id="image-result" hidden>
+  </body>
+</html>
